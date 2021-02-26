@@ -5,7 +5,7 @@ nltk.download('stopwords')
 from nltk import RegexpTokenizer
 from nltk.corpus import stopwords
 from nltk import word_tokenize
-from nltk.collocations import *
+
 nlp = spacy.load('es_core_news_md')
 
 def text_normalization(text):
